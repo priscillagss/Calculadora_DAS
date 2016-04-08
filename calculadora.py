@@ -4,4 +4,4 @@ class Calculadora(object):
         return x+y
 
     def subtracao(self, x, y):
-        pass
+        return x-y
