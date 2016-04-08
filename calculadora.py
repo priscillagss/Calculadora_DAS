@@ -5,3 +5,6 @@ class Calculadora(object):
 
     def subtracao(self, x, y):
         return x-y
+
+    def multiplicacao(self, x, y):
+        pass
