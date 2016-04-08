@@ -1,3 +1,5 @@
+import math
+
 class Calculadora(object):
  
     def adicao(self, x, y):
@@ -11,3 +13,6 @@ class Calculadora(object):
 
     def divisao(self, x, y):
         return x/y
+
+    def potencia(self, x, y):
+        pass
