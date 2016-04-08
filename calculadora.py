@@ -1,4 +1,4 @@
 class Calculadora(object):
  
     def adicao(self, x, y):
-        pass
+        return x+y
