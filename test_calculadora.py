@@ -38,6 +38,11 @@ class teste_classe_calculadora(unittest.TestCase):
         result = calc.log10(10)
         self.assertEqual(1, result)
 
+    def test_fatorial(self):
+        calc = Calculadora()
+        result = calc.fatorial(4)
+        self.assertEqual(24, result)
+
 
 if __name__ == '__main__':
     unittest.main()
