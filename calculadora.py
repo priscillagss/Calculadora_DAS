@@ -27,4 +27,4 @@ class Calculadora(object):
         return math.factorial(x)
 
     def modulo(self, x):
-        pass
+        return math.fabs(x)
