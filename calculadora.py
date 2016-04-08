@@ -21,4 +21,4 @@ class Calculadora(object):
         return math.sqrt(x)
 
     def log10(self, x):
-        pass
+        return math.log10(x)
