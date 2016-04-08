@@ -15,4 +15,4 @@ class Calculadora(object):
         return x/y
 
     def potencia(self, x, y):
-        pass
+        return math.pow(x,y)
