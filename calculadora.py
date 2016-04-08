@@ -19,3 +19,6 @@ class Calculadora(object):
 
     def raiz(self, x):
         return math.sqrt(x)
+
+    def log10(self, x):
+        pass
