@@ -16,3 +16,6 @@ class Calculadora(object):
 
     def potencia(self, x, y):
         return math.pow(x,y)
+
+    def raiz(self, x):
+        pass
