@@ -18,5 +18,10 @@ class teste_classe_calculadora(unittest.TestCase):
         result = calc.multiplicacao(2,3)
         self.assertEqual(6, result)
 
+    def test_divisao(self):
+        calc = Calculadora()
+        result = calc.divisao(8,2)
+        self.assertEqual(4, result)
+
 if __name__ == '__main__':
     unittest.main()
