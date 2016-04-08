@@ -8,3 +8,6 @@ class Calculadora(object):
 
     def multiplicacao(self, x, y):
         return x*y
+
+    def divisao(self, x, y):
+        pass
