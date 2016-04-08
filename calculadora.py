@@ -10,4 +10,4 @@ class Calculadora(object):
         return x*y
 
     def divisao(self, x, y):
-        pass
+        return x/y
