@@ -25,3 +25,6 @@ class Calculadora(object):
 
     def fatorial(self, x):
         return math.factorial(x)
+
+    def modulo(self, x):
+        pass
