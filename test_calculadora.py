@@ -23,5 +23,10 @@ class teste_classe_calculadora(unittest.TestCase):
         result = calc.divisao(8,2)
         self.assertEqual(4, result)
 
+    def test_potencia(self):
+        calc = Calculadora()
+        result = calc.potencia(2,4)
+        self.assertEqual(16, result)
+
 if __name__ == '__main__':
     unittest.main()
