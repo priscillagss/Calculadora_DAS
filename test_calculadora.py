@@ -1,8 +1,12 @@
 import unittest
+from calculadora import Calculadora
  
 class teste_classe_calculadora(unittest.TestCase):
  
     def test_adicao(self):
-        calc = Calculator()
+        calc = Calculadora()
         result = calc.adicao(2,2)
         self.assertEqual(4, result)
+
+if __name__ == '__main__':
+    unittest.main()
