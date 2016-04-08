@@ -7,4 +7,4 @@ class Calculadora(object):
         return x-y
 
     def multiplicacao(self, x, y):
-        pass
+        return x*y
