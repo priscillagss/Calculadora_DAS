@@ -18,4 +18,4 @@ class Calculadora(object):
         return math.pow(x,y)
 
     def raiz(self, x):
-        pass
+        return math.sqrt(x)
