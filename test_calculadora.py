@@ -33,5 +33,11 @@ class teste_classe_calculadora(unittest.TestCase):
         result = calc.raiz(25)
         self.assertEqual(5, result)
 
+    def test_log10(self):
+        calc = Calculadora()
+        result = calc.log10(10)
+        self.assertEqual(1, result)
+
+
 if __name__ == '__main__':
     unittest.main()
