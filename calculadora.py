@@ -24,4 +24,4 @@ class Calculadora(object):
         return math.log10(x)
 
     def fatorial(self, x):
-        pass
+        return math.factorial(x)
