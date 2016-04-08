@@ -28,5 +28,10 @@ class teste_classe_calculadora(unittest.TestCase):
         result = calc.potencia(2,4)
         self.assertEqual(16, result)
 
+    def test_raiz(self):
+        calc = Calculadora()
+        result = calc.raiz(25)
+        self.assertEqual(5, result)
+
 if __name__ == '__main__':
     unittest.main()
